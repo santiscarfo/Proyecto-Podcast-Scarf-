@@ -1,0 +1,63 @@
+.phoneconteiner { 
+    position: relative;
+    top: 150px;
+    display: flex;
+    justify-content: center;
+    width: 360px;
+    height: 519px;
+    @media screen and (min-width: 720px) { 
+        position: relative;
+        top: -180px;
+        left: 120px;
+        width: 457.6px;
+        height: 660px;
+    }
+}
+
+#section2 { 
+    h2 { 
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-size: 36px;
+        color: #060A24;
+        letter-spacing: 4px;
+        line-height: 42px;
+        margin: 20px;
+        margin-top: 90px;
+        top: 700px;
+        position: relative;
+        top: 100px;
+        @media screen and (min-width: 720px) { 
+            font-size: 48px;
+            position: relative;
+            left: 590px;
+            top: -700px;
+            display: inline-block;
+        }
+    }
+}
+
+#section2 { 
+    div { 
+        margin: 20px
+    }
+}
+
+#section2 { 
+    p { 
+        font-family: 'IBM Plex Mono', monospace;
+        position: relative;
+        top: 80px;
+        font-size: 14px;
+        color: #060A24;
+        letter-spacing: 0;
+        line-height: 22px;
+        padding: 5px;
+        @media screen and (min-width: 720px) { 
+            font-size: 16px;
+            position: relative;
+            left: 590px;
+            top: -700px;
+            max-width: 540px;
+        }
+    }
+}

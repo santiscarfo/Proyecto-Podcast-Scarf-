@@ -1,0 +1,126 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+.logo { 
+    padding: 20px;
+    @media screen and (min-width: 720px) { 
+    margin-left: 80px;
+    }
+}
+
+#btn-menu { 
+    position: relative;
+    left: 265px;
+    top: -20px;
+    display: none;
+}
+
+
+header label { 
+    display: block;
+}
+
+.ham { 
+    width: 17px;
+    position: relative;
+    left: 330px;
+    top: -40px; 
+    @media screen and (min-width: 720px) { 
+        display: none;
+        max-width: 100%;
+    }
+}
+
+.menuhambu { 
+    position: absolute;
+    background-color: #0000EC;
+    width: 100%;
+    margin-right: -50%;
+    transition: all 0.5s;
+    top: 50px;
+    left: 0px;
+    display: none;
+    @media screen and (min-width: 720px) { 
+        display: flex;
+        width: 0px;
+        background-color: none;
+        margin-left: 20px;
+        margin-bottom: -20px;
+    }
+}
+
+.menuhambu ul { 
+    flex-direction: column;
+    list-style-type: none;
+    text-decoration: none;
+    padding: 20px;
+    @media screen and (min-width: 720px) { 
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        position: relative;
+        left: 800px;
+        top: -10px;
+    } 
+}
+
+.menuhambu li {
+    font-family: 'IBM Plex Mono', monospace; 
+    padding: 15px;
+    color: #fff;
+    @media screen and (min-width: 720px) { 
+        padding: 65px;
+        position: relative;
+        top: -100px;
+        left: -110px;
+    }
+}
+
+.menuhambu li:hover { 
+    @media screen and (min-width: 720px){
+     color: #00F3BB;
+    text-decoration: line-through;
+   }
+}
+
+#btn-menu:checked ~ .menuhambu { 
+    margin:0;
+    visibility: visible;
+    display: block;
+}
+
+#btn-menu:checked ~ .section1 p { 
+    visibility: hidden;
+}
+
+.menunav {
+    ul{
+        li {
+            a:active{
+                @media screen and (min-width: 720px) {
+                    color: grey;
+                    text-decoration: line-through;
+                }    
+            }
+        }
+    }
+}
+
+.menunav {
+    ul{
+        li {
+            a:visited{
+                @media screen and (min-width: 720px) {
+                    color: grey;
+                    text-decoration: line-through;
+                }    
+            }
+        }
+    }
+}
+
