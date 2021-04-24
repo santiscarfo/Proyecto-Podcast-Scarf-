@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"name": "Proyecto-Podcast-Scarf-",
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Proyecto Podcast"
+	}
+}
